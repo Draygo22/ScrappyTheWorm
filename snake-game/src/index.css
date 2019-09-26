@@ -1,0 +1,35 @@
+body {
+  background-color: darkslategray;
+}
+
+.game-area {
+  position: relative;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f7cd4a5-8ac9-4320-b2a8-7d111cc0dfcf/d8hedyc-f8b2b324-d7c2-4019-91cd-cc5ed6b3eb69.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmN2NkNGE1LThhYzktNDMyMC1iMmE4LTdkMTExY2MwZGZjZlwvZDhoZWR5Yy1mOGIyYjMyNC1kN2MyLTQwMTktOTFjZC1jYzVlZDZiM2ViNjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Cjg21JhF-wzDM31zf71BxXrbZXT-FNP6csdaesJt9dM');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000;
+}
+
+.dot-snake {  
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  z-index: 2;
+}
+
+.snake-food {
+  position: absolute;
+  width: 3%;
+  background-image: url('https://cdn.pixabay.com/photo/2013/07/12/12/49/turd-146305_960_720.png');
+  background-position: center;
+  background-size: 25px;
+  height: 3%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
